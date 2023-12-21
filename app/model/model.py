@@ -9,7 +9,7 @@ from sqlalchemy import create_engine, text
 __version__ = "2.0.0"
 # change the url
 def get_data_template(table_name):
-    db_user = 'root'
+    db_user = 'dapurly-project'
     db_password = '12345'
     db_port = 3306
     db_host = "34.128.103.197"
